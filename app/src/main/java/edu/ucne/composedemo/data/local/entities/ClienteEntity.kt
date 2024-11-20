@@ -13,7 +13,7 @@ data class ClienteEntity(
     val telefono: String = "",
     val celular: String = "",
     val rnc: String = "",
-    val tieneIguala: Boolean = false,
+    val tieneIguala: Boolean? = false,
     val tipoComprobante: Int? = null
 
 
