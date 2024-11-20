@@ -9,7 +9,7 @@ import edu.ucne.composedemo.data.local.entities.TicketEntity
     entities = [
         TicketEntity::class,
     ],
-    version = 1,
+    version = 2,
     exportSchema = false
 )
 abstract class TicketDb : RoomDatabase() {
