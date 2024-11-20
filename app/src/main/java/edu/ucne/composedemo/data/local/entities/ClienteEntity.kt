@@ -6,7 +6,7 @@ import androidx.room.PrimaryKey
 @Entity(tableName = "Cliente")
 data class ClienteEntity(
     @PrimaryKey(autoGenerate = true)
-    val codigoCliente: Int? = null,
+    val codigoCliente: Double? = null,
     val nombres: String = "",
     val empresa: String = "",
     val direccion: String = "",
@@ -14,7 +14,7 @@ data class ClienteEntity(
     val celular: String = "",
     val rnc: String = "",
     val tieneIguala: Boolean? = false,
-    val tipoComprobante: Int? = null
+    val tipoComprobante: Int
 
 
 )
